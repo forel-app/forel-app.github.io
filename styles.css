@@ -220,7 +220,7 @@ h3 {
 }
 
 .hero-actions,
-.open-source-actions {
+.cta-actions {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -391,7 +391,7 @@ h3 {
 
 .section-copy p,
 .section-heading p,
-.open-source-inner p {
+.cta-inner p {
   max-width: 720px;
   color: var(--muted);
   font-size: 18px;
@@ -549,11 +549,11 @@ h3 {
   line-height: 1.55;
 }
 
-.open-source-section {
+.cta-section {
   background: transparent;
 }
 
-.open-source-inner {
+.cta-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -564,7 +564,7 @@ h3 {
   background: #ffffff;
 }
 
-.open-source-section .button-secondary {
+.cta-section .button-secondary {
   color: var(--ink);
   background: #ffffff;
   border-color: var(--line);
@@ -624,7 +624,7 @@ h3 {
     min-height: 96px;
   }
 
-  .open-source-inner {
+  .cta-inner {
     align-items: flex-start;
     flex-direction: column;
   }
@@ -660,7 +660,7 @@ h3 {
   }
 
   .hero-actions,
-  .open-source-actions {
+  .cta-actions {
     align-items: stretch;
     flex-direction: column;
   }
